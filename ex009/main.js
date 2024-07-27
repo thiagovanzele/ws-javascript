@@ -1,5 +1,7 @@
-function retornaMaior (num1, num2) {
-    return Math.max(num1, num2);
-}
+// function retornaMaior (num1, num2) {
+//     return Math.max(num1, num2);
+// }
 
-console.log(retornaMaior(12,24));
+const max = (x, y) => x > y ? x : y
+
+console.log(max(36,24));
