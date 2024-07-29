@@ -59,6 +59,7 @@ button {
     margin-left: 10px;  
     display: flex;
     align-items: center;
+    border: none;
 }
 
 li {
@@ -71,13 +72,25 @@ li {
 
 .btn-tarefa:hover {
     color: #188515;
-    border: 1px solid #188515;
+    /* border: 1px solid #188515; */
     filter: drop-shadow(3px 3px 5px #35ff2e85);
+}
+
+.btn-tarefa:active {
+    color: white;
+    background-color: #188515;
+    border: 1px solid #188515;
 }
 
 .apagar:hover {
     color: #851915;
-    border: 1px solid #851515;
+    /* border: 1px solid #851515; */
     filter: drop-shadow(3px 3px 5px #ff2e2e85);
+}
+
+.apagar:active {
+    color: white;
+    background-color: #851915;
+    border: 1px solid #851515;
 }
 
