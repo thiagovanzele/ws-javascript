@@ -36,4 +36,4 @@ function realizaSoma(quantidade, valor) {
     return soma;
 }
 
-console.log(validaCpf('42477414885'));
+console.log(validaCpf('42477414895'));
