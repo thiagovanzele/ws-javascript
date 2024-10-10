@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    pad: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #3f3f3f;
+}
+
+
+#form-container {
+    background-color: #afafaf;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 60px;
+    width: 400px;
+    padding: 50px;
+    border-radius: 15px;
+    max-width: 50%;
+}
+
+#form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+#form-container form input {
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+label {
+    margin-top: 10px;
+}
+
+#botao {
+    padding: 10px;
+    width: 100px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#botao:hover {
+    background-color: rgb(127, 180, 127);
+}
+
+#botao:active {
+    background-color: rgb(78, 112, 78);
+}
+
+#feedback {
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+
